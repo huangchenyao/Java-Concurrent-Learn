@@ -9,4 +9,11 @@ public class SleepUtils {
         } catch (InterruptedException ignore) {
         }
     }
+
+    public static final void millisecond(long milliseconds) {
+        try {
+            TimeUnit.MILLISECONDS.sleep(milliseconds);
+        } catch (InterruptedException ignore) {
+        }
+    }
 }
